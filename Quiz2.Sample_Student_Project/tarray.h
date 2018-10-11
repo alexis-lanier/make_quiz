@@ -1,3 +1,9 @@
+/**
+*@file tarray.h
+*@brief Header file for the tarray class; contains function definitions for a template class
+*@author John Dolan
+*/
+
 /*********************************************************************
 	This is a class to introduce you to the syntax of working with 
 	template classes. Notice that the type being stored is completely

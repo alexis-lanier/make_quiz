@@ -1,3 +1,9 @@
+/**
+*@file college.cc
+*@brief Implements functions for the college class
+*@author Matthew Aberegg
+*/
+
 //********************
 //Matthew Aberegg
 //Project 3
@@ -69,6 +75,11 @@ College& College::operator =(const College& other){
 	return * this;
 }
 
+/**
+*@brief adds a college course to the linked list
+*@param course &c -- the course the user wants to input -- passed by reference
+*@return void
+*/
 void College::add(course& c){
 	node * previous;
 	node * cursor;
@@ -107,6 +118,12 @@ void College::add(course& c){
 	}
 }
 
+
+/**
+*@brief removes a course from the linked list
+*@param std::string coursename -- a string of the course the user wants to remove from their class list
+*@return void
+*/
 void College::remove(std::string coursename){
 	node * previous;	
 	node * cursor;

@@ -1,3 +1,9 @@
+/**
+*@file college.h
+*@brief Header file for the college class; contains function definitions that describe college courses and gpa
+*@author Matthew Aberegg
+*/
+
 //********************
 //Matthew Aberegg
 //Project 3

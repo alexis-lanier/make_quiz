@@ -1,3 +1,9 @@
+/**
+*@file course.h
+*@brief Header file for the course class; contains function definitions that store features of a college course
+*@author John Dolan
+*/
+
 /***********************************************************************8
 	This class stores the three essential features of a completed 
 	college course: the course number, the grade received, and the 
